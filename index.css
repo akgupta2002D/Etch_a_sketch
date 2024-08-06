@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 10rem;
+
+}
+
+.grid-item{
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    
+    
+}
+
+.grid-item.hovered{
+    background-color: green;
+    
+}
+
+button{
+    background-color: green;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    color: white;
+}
